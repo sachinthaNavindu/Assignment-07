@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: rgb(133, 130, 130);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    color: rgb(228, 110, 110);
+    font-size: 55px;
+    font-weight: bold;
+}
+.block{
+    margin-top: 10%;
+    height: 60%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.card{
+    height: 300px;
+    width: 300px;
+    display: flex;
+}
+.image{
+    height: 60%;
+    width: 60%;
+}
+.letter{
+    height: 40%;
+    width: 40%;
+    color: rgb(208, 230, 237);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
